@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foto Dokumentasi</title>
+  <style>
+   body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b5c9e2;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.menu-icon {
+    display: none; /* Sembunyikan ikon menu secara default */
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image {
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .photo-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      width: 300px;
+      text-align: center;
+    }
+
+    .photo-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .caption {
+      padding: 10px;
+      font-size: 16px;
+    }
+    footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+  </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Portofolio Fasa</div>
+       <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="pengalaman.html">Pengalaman</a></li>
+                <li><a href="skill.html">Skill</a></li>
+                <li><a href="dokumentasi.html">Dokumentasi</a></li>
+                <li><a href="#" class="menu-icon">&#8801;</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  <h1>Dokumentasi Kegiatan</h1>
+
+  <div class="gallery">
+    <div class="photo-card">
+      <img src="dokumentasi.ft.jpeg" alt="Foto 1">
+      <div class="caption">Kegiatan 1</div>
+    </div>
+    <div class="photo-card">
+      <img src="dokumentasi.ft2.jpeg" alt="Foto 2">
+      <div class="caption">Kegiatan 2</div>
+    </div>
+    <div class="photo-card">
+      <img src="pengalaman.ft.jpeg" alt="Foto 3">
+      <div class="caption">Kegiatan 3</div>
+    </div>
+  </div>
+  <footer>
+        <p>&copy; 2025 Fasa Ayu Fitria Ningsih</p>
+    </footer>
+</body>
+</html>
